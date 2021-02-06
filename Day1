@@ -10,9 +10,11 @@ void main(){
    @override 
    Widget build (BuildContext context) {
      return MaterialApp(
-       home: Container(
-        child: Text("Welcome to Flutter"),
+       home: Material(
+        child:Center(
+         child: Text("Welcome to Flutter"),
       ),
+     ),
      );
    }
  }
